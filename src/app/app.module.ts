@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { GitNavbarComponent } from './git-navbar/git-navbar.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { UserRepoComponent } from './user-repo/user-repo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { GitNavbarComponent } from './git-navbar/git-navbar.component';
     AboutComponent,
     GitNavbarComponent,
     NgProgressHttpClientModule,
-    NgProgressModule
+    NgProgressModule,
+    NotFoundComponent,
+    UserRepoComponent
   ],
   imports: [
     BrowserModule,
