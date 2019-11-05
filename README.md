@@ -19,3 +19,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+# Support and contact details
+
+incase you are not able to view certain application or parts of the website feel free to submit an email to mitchelaudrey@gmail.com/mitchelaudrey@icloud.com
