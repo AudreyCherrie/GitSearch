@@ -1,15 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
+// import { GitService } from  '';
 
-@Component({
-  selector: 'app-user-repo',
-  templateUrl: './user-repo.component.html',
-  styleUrls: ['./user-repo.component.css']
-})
-export class UserRepoComponent implements OnInit {
 
-  constructor() { }
+// @Component({
+//   selector: 'app-user-repos',
+//   templateUrl: './user-repos.component.html',
+//   styleUrls: ['./user-repos.component.css']
+// })
+// export class UserReposComponent implements OnInit {
+ 
+//   myRepo:Repo[];
 
-  ngOnInit() {
-  }
+//   constructor(public reposerv: GitService {
+//   }
+ 
 
-}
+//   getRepo(searchTerm: string) {
+//     this.reposerv.getRepo(searchTerm).subscribe(data => {
+//       this.myRepo = data;
+//       return(this.myRepo);
+//     });
+//   }
+
+  
+//   ngOnInit() {
+    
+//     this.getRepo('AudreyCherrie');
+    
+//   }
+// }
