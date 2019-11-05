@@ -3,6 +3,8 @@
 
 
 # Author
+
+AUDREY MITCHEL MACHARIA
 #  Description
 THi application is about the GITSEarch that allows one to search ones repositories 
 
