@@ -34,8 +34,8 @@
               <input type="text" class="mr-2 text-center form-control w-75 d-inline-block" placeholder="Search repository"  autocomplete="off" id="repoSearch"><br><br>
               <button (click)="searchRepo()" class="btn btn-info"><span><i class="fas fa-search"></i></span>Search</button><span></span>
               <button class="btn btn-light" id="viewAll">View All</button>
-               <a href="User.html.url?tab=repositories">view on Github</a>  
-                
+               <!-- <a href="User.html.url?tab=repositories">view on Github</a>  
+                 -->
                 <div class="container-fluid" *ngIf='repos'>
                   <div class="row" >
                   <div class="col-md-4" *ngFor='let repo of repos'>
