@@ -3,7 +3,7 @@ import { Repository } from '../repository';
 
 
 @Component({
-  selector: 'app-repo',
+  selector: 'app-repos',
   templateUrl: './repo.component.html',
   styleUrls: ['./repo.component.css']
 })
