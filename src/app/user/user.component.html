@@ -7,7 +7,7 @@
   <form>
   <div  id="searchdiv" class="ui action input">
     <input name=name type="text" placeholder="Enter username..." [(ngModel)] = "username" required>
-  <button (click)="searchUser()"  class="ui button">Search</button>
+  <button (click)="searchUser(name)"  class="ui button">Search</button>
   </div>
   </form>
     </div>
@@ -31,11 +31,11 @@
           </div>
             <div  *ngIf="viewRepo">
             <div class="repo-btn-container text-center mx-5 mt-4">
-              <!-- <input type="text" class="mr-2 text-center form-control w-75 d-inline-block" placeholder="Search repository"  autocomplete="off" id="repoSearch"><br><br> -->
+              <!-- <input type="text" class="mr-2 text-center form-control w-75 d-inline-block" placeholder="Search repository"  autocomplete="off" id="repoSearch"><br><br>
               <!-- <button (click)="searchRepo()" class="btn btn-info"><span><i class="fas fa-search"></i></span>Search</button><span></span> -->
               <!-- <button class="btn btn-light" id="viewAll">View All</button> -->
                <!-- <a href="User.html.url?tab=repositories">view on Github</a>  
-                 -->
+                 --> 
                 <div class="container-fluid" *ngIf='repos'>
                   <div class="row" >
                   <div class="col-md-4" *ngFor='let repo of repos'>
